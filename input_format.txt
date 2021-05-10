@@ -1,0 +1,61 @@
+Sample data:
+
+fraud YES
+
+{
+  "months_as_customer": 328,
+  "age": 48,
+  "policy_deductable": 1000,
+  "umbrella_limit": 0,
+  "capital-gains": 53300,
+  "capital-loss": 0,
+  "incident_hour_of_the_day": 5,
+  "number_of_vehicles_involved": 1,
+  "bodily_injuries": 1,
+  "witnesses": 2,
+  "total_claim_amount": 71610,
+  "injury_claim": 6510,
+  "property_claim": 13020,
+  "vehicle_claim": 52080,
+  "insured_sex": "MALE",
+  "insured_education_level": "MD",
+  "insured_occupation": "craft-repair",
+  "insured_hobbies": "sleeping",
+  "insured_relationship": "husband",
+  "incident_type": "Single Vehicle Collision",
+  "collision_type": "Side Collision",
+  "incident_severity": "Major Damage",
+  "authorities_contacted": "Police",
+  "property_damage": "YES",
+  "police_report_available": "YES"
+  }
+  
+fraud NO
+
+{
+  "months_as_customer": 328,
+  "age": 29,
+  "policy_deductable": 1000,
+  "umbrella_limit": 5000000,
+  "capital-gains": 35100,
+  "capital-loss": 0,
+  "incident_hour_of_the_day": 5,
+  "number_of_vehicles_involved": 1,
+  "bodily_injuries": 2,
+  "witnesses": 0,
+  "total_claim_amount": 65000,
+  "injury_claim": 1300,
+  "property_claim": 650,
+  "vehicle_claim": 5200,
+  "insured_sex": "MALE",
+  "insured_education_level": "MD",
+  "insured_occupation": "sales",
+  "insured_hobbies": "reading",
+  "insured_relationship": "unmarried",
+  "incident_type": "Vehicle Theft",
+  "collision_type": "Side Collision",
+  "incident_severity": "Major Damage",
+  "authorities_contacted": "Police",
+  "property_damage": "YES",
+  "police_report_available": "YES"
+  }
